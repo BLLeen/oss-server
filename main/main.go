@@ -11,7 +11,7 @@ func main() {
 		c.String(200, "Hello World")
 	})
 	r.PUT("")
-	r.Run("localhost:18080") // listen and serve on 0.0.0.0:8080
+	r.Run("18080") // listen and serve on 0.0.0.0:8080
 }
 
 func init() {
